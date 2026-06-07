@@ -1,0 +1,9 @@
+#pragma once
+#include <windows.h>
+
+namespace Lab3 {
+	LRESULT CALLBACK MainWndProc(HWND, UINT, WPARAM, LPARAM);
+	LRESULT CALLBACK PlayerWndProc(HWND, UINT, WPARAM, LPARAM);
+	LRESULT CALLBACK EnemyWndProc(HWND, UINT, WPARAM, LPARAM);
+	LRESULT CALLBACK BulletWndProc(HWND, UINT, WPARAM, LPARAM);
+}
